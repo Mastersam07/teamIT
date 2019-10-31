@@ -17,6 +17,7 @@
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
+    "coveralls": "^3.0.7",
     "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
@@ -26,7 +27,7 @@
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec",
     "start": "nodemon --exec babel-node index.js",
-    "lint":"eslint"
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
