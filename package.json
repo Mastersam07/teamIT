@@ -1,0 +1,38 @@
+{
+  "name": "teamwork",
+  "version": "1.0.0",
+  "description": "Teamwork is an internal social network for employees of an organization.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "swagger": "^0.7.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastersam07/teamIT.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "mastersam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mastersam07/teamIT/issues"
+  },
+  "homepage": "https://github.com/mastersam07/teamIT#readme"
+}
