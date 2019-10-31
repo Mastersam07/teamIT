@@ -8,7 +8,9 @@
     "dotenv": "^8.2.0",
     "eslint": "^6.6.0",
     "express": "^4.17.1",
+    "jasmine": "^3.5.0",
     "morgan": "^1.9.1",
+    "request": "^2.88.0",
     "swagger": "^0.7.5"
   },
   "devDependencies": {
@@ -16,10 +18,12 @@
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
+    "jasmine-node": "^3.0.0",
     "nodemon": "^1.19.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js",
     "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
