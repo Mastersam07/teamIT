@@ -27,7 +27,8 @@
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec",
     "start": "nodemon --exec babel-node index.js",
-    "lint": "eslint"
+    "lint": "eslint",
+    "coverage": "npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
