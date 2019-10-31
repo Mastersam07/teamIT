@@ -8,6 +8,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jasmine": "^3.5.0",
+    "jest": "^24.9.0",
     "morgan": "^1.9.1",
     "request": "^2.88.0",
     "swagger": "^0.7.5"
@@ -28,7 +29,7 @@
     "test": "./node_modules/.bin/jasmine-node spec",
     "start": "nodemon --exec babel-node index.js",
     "lint": "eslint",
-    "coverage": "npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
