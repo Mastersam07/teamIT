@@ -39,10 +39,10 @@ When you need to test the application and view test coverage run:
 * DELETE `/api/v2/articles/:articleId` Delete an article
 
 # Heroku 
-Access link :[Visit the link](https://teamworkadc.herokuapp.com/api/v2/).
+Access link
 
 # Swagger API Documentation
-Access link :[Visit the link](https://teamworkadc.herokuapp.com/docs/v2).
+Access link
 
 # Github-page
-GitHub page (gh-page) of this project accessed using this link [Teamwork](https://hirwaf.github.io/teamwork/UI).
+GitHub page (gh-page) of this project accessed using this link [Teamwork](https://mastersam07.github.io/teamIT/UI).
