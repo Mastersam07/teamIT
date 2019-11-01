@@ -24,7 +24,7 @@ When you need to test the application and view test coverage run:
 * `npm test` for running the tests, and getting coverage summary.
 
 # API
-* POST `/api/v2/auth/signup` Creating account.
+* POST `/api/v2/auth/signup` Create account.
 * POST `/api/v2/auth/signin` Sign in.
 
   **Require authentication**
