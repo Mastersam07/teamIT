@@ -2,9 +2,15 @@ language: node_js
 
 node_js:
   - 10.16.3
+addons:
+    code_climate:
+        repo_token: c061d85fa9c307d34b453dc282339416b1acfe83d06e42711acd50f1262301a0
 before_script:
   - npm install coverage
   - npm install -g nyc
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
   - npm run lint
 after_script:
