@@ -7,4 +7,6 @@ before_script:
   - npm install -g nyc
 script:
   - npm run lint
+after_script:
   - npm run coverage
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
