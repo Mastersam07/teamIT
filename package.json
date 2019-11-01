@@ -29,7 +29,8 @@
     "test": "./node_modules/.bin/jasmine-node spec",
     "start": "nodemon --exec babel-node index.js",
     "lint": "eslint",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
