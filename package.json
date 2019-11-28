@@ -1,7 +1,7 @@
 {
   "name": "teamwork",
   "version": "1.0.0",
-  "description": "Andela Challenge cycle 11",
+  "description": "Andela DevC capstone project",
   "main": "index.js",
   "scripts": {
     "migrate": "babel-node ./server/database/init_db.js",
